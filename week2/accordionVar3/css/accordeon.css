@@ -1,0 +1,36 @@
+.accordion {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+}
+
+.accordion__item.active  .accordion__btn{
+    background: #f4f0d3;
+}
+
+.accordion__header {
+
+}
+
+.accordion__btn {
+    width: 100%;
+    text-align: left;
+    background: #dddddd;
+    padding: 22px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ 
+.accordion__content { 
+    max-height: 0;
+    overflow: hidden;
+    transition:  all 0.5s ease-in;
+}
+
+
+.accordion__body {
+    padding: 22px;
+
+}
